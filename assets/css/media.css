@@ -1,0 +1,25 @@
+@media (max-width: 940px) {
+  .footer__wrapper>div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__wrapper {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-bottom: 10px;
+  }
+  .header-bottom__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .header-nav__menu-item {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin: 15px 0;
+  }
+}
